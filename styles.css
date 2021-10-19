@@ -1,0 +1,31 @@
+body{
+    background-color: bisque;
+}
+/* .container{
+    width:475px;
+    height: 100%;
+    margin-top: 200px;
+}  */
+.buttonClicked
+{
+    background-color: red;
+}
+.buttons{
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+} 
+.contentButton{
+    width: 250px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 1px;
+    /* margin-left:200px ;
+    margin-top: 15px; */
+}
+/*#imageContent{
+    
+    margin-left: 600px;
+} */
