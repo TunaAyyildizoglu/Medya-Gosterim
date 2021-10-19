@@ -12,6 +12,7 @@
     <div class="container m-3">
         <div class="row justify-content-md-center">
             <div class="col-md-auto">
+                <!--İçerik butonlarını burada gösterdim ancak iç kısmını app.js kısmında doldurdum -->
                 <div class="buttons">
                     <button class="contentButton" type="button"></button>
                     <button class="contentButton" type="button"></button>
@@ -21,16 +22,19 @@
                 </div>
             </div>
             <div class="col-md-auto">
+                <!--Ses butonlarına başlatma ve durdurma eklentisini verdim. Fonksiyon ile Onclick özelliğini kullandım-->
                 <div class="row">
                     <audio id="audioContent"></audio>
                     <button class="audioButton" onclick="audioPlayStop('Play')" style="visibility: hidden;">Play</button>
                     <button class="audioButton" onclick="audioPlayStop('Stop')" style="visibility: hidden;">Stop</button>
                 </div>
                 <div class="row">
+                    <!--Araç resimlerini fonksiyon ile kullanmak için burada gösterdim -->
                     <img id="imageContent" />
                 </div>
+                <!--İleri Butonunun Eklenmesi ve style uygulanması -->
                 <div class="row">
-                    <button id="continueButton" type="button" style="visibility: hidden;">İleri</button>
+                    <button id="continueButton" type="button" style="visibility: hidden;">İleri</button> 
                 </div>
             </div>
         </div>
